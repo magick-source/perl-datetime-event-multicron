@@ -1,5 +1,9 @@
 Revision history for Perl extension DateTime::Event::MultiCron.
 
+0.01.1 Fri 27 12:10:00 2007
+	- Added the prereq DateTime::Event::Cron on the Makefile.PL
+	- Removed a defaul pod message from the module pod.
+
 0.01  Thu Jul 26 17:23:22 2007
 	- original version; created by h2xs 1.23 with options
 		-XAn DateTime::Event::MultiCron

@@ -7,7 +7,7 @@ require Exporter;
 
 use base 'DateTime::Event::Cron';
 
-our $VERSION = '0.01';
+our $VERSION = '0.01.1';
 
 sub from_multicron {
 	my $class=shift;
@@ -28,11 +28,10 @@ sub from_multicron {
 
 1;
 __END__
-# Below is stub documentation for your module. You'd better edit it!
-
 =head1 NAME
 
-DateTime::Event::MultiCron - Perl extension for DateTime::Event::Cron
+DateTime::Event::MultiCron - Extension for DateTime::Event::Cron that allows
+multiple cron schedules for the same event.
 
 =head1 SYNOPSIS
 
@@ -60,20 +59,15 @@ L<SYNOPSIS>.
 
 =back
 
-Stub documentation for DateTime::Event::MultiCron, created by h2xs. It looks like the
-author of the extension was negligent enough to leave the stub
-unedited.
-
-Blah blah blah.
-
-
 =head1 SEE ALSO
 
   L<DateTime::Event::Cron>
 
 =head1 AUTHOR
 
-Marco Neves, E<lt>neves@cpan.orgE<gt>
+  Marco Neves, E<lt>neves@cpan.orgE<gt>
+  http://www.magick-source.net/
+
 
 =head1 COPYRIGHT AND LICENSE
 
